@@ -1,7 +1,8 @@
-# armbian-kDs
-Kubernetes on the Orange Pi Lite 1
+# Kubernetes on the Orange Pi Lite 1
 
-Additional part - Vagrant build:
+-----------------------------------------------
+
+## Additional part - Vagrant build:
 
 ```
 # You’ll need to install a plug-in that will enable us to resize the primary storage device. Without it, the default Vagrant images are too small to build Armbian.
@@ -32,7 +33,7 @@ vagrant up
 vagrant ssh
 ```
 
-# Additional:
+### Additional:
 ```
 # Shutdown, but leave the box around for more building at a later time:  
 vagrant halt
@@ -40,3 +41,7 @@ vagrant halt
 # Trash the box and remove all the related storage devices.  
 vagrant destroy
 ```
+
+-----------------------------------------------
+
+## Part 1 - Install OS to Orange Pi:
